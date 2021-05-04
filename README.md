@@ -1,17 +1,14 @@
-# debugprint
+# gnoon
 
 how to install :
 
-python -m pip install git+https://github.com/hieonn/debugprint.git#egg=dprint
+python -m pip install git+https://github.com/hieonn/gnoon.git#egg=gnoon
 
-python -m pip install --upgrade git+https://github.com/hieonn/debugprint.git#egg=dprint
+python -m pip install --upgrade git+https://github.com/hieonn/gnoon.git#egg=gnoon
 
 how to check :
 
 python -m pip show 
 
-from dprint import dprint
-dprint = dprint()
-dprint_init(True/False)
-dprint(variable, display, tag)
-# gnoon
+from gnoon import gnoon
+val = gnoon(rules, data)
